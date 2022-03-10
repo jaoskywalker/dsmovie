@@ -13,6 +13,7 @@ import com.devsuperior.dsmovie.repositories.MovieRepository;
 @Service
 public class MovieService {
 	
+	// test
 	@Autowired
 	private MovieRepository repository;
 	
