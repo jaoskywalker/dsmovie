@@ -36,7 +36,6 @@ public class ScoreService {
 		}
 
 		Movie movie = movieRepository.findById(dto.getMovieId()).get();
-		
 		Score score = new Score();
 		score.setMovie(movie);
 		score.setUser(user);
